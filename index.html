@@ -107,7 +107,6 @@
             background-color: #29cf00;
         }
 
-        /* Kontainer untuk tombol "Beli Sekarang" dan WhatsApp */
         .button-container {
             display: flex;
             justify-content: space-between;
@@ -115,7 +114,6 @@
         }
 
         
-        /* Tombol YouTube */
         .youtube-button {
             background-color: #530cd6;
             color: white;
@@ -134,7 +132,6 @@
         }
 
 
-        /* Tombol WhatsApp */
         .whatsapp-button {
             background-color: #d6c90c;
             color: black;
@@ -152,7 +149,6 @@
             background-color: #a37207;
         }
 
-        /* Tombol Beli Sekarang */
         .buy-button {
             background-color: #2114d6;
             color: white;
@@ -170,7 +166,6 @@
             background-color: #29cf00;
         }
 
-        /* Tombol Daftar */
            .daftar-button {
             background-color: #2114d6;
             color: white;
@@ -188,14 +183,13 @@
             background-color: #a37207;
        }
              
-        /* Styling untuk tombol yang dipilih (method yang sudah dipilih) */
         .selected-payment {
-            background-color: #29cf00; /* Warna hijau saat dipilih */
-            color: white; /* Warna teks putih */
-            border: 1px solid #29cf00; /* Border yang konsisten dengan warna hijau */
+            background-color: #29cf00; 
+            color: white; 
+            border: 1px solid #29cf00; 
         }
 
-        /* Responsif untuk perangkat mobile */
+        
         @media screen and (max-width: 768px) {
             .container {
                 padding: 15px;
@@ -209,27 +203,27 @@
             }
         }
         #productPrice {
-            font-size: 20px; /* Ukuran font lebih besar */
-            font-weight: bold; /* Membuat teks lebih tebal */
-            color: #7847ff; /* Memberi warna yang mencolok (misalnya, merah tomat) */
-            background-color: #dfd7af; /* Memberikan latar belakang sedikit kuning untuk kontras */
-            padding: 10px; /* Memberi padding untuk jarak antara teks dan batas */
-            border-radius: 8px; /* Memberikan sudut yang melengkung */
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Memberikan bayangan halus di sekitar harga */
-            margin-top: 15px; /* Menambahkan jarak antara harga dan elemen lainnya */
-            text-align: center; /* Menempatkan harga di tengah */
+            font-size: 20px; 
+            font-weight: bold; 
+            color: #7847ff;
+            background-color: #dfd7af; 
+            padding: 10px; 
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+            margin-top: 15px; 
+            text-align: center; 
         }
 
-        /* Styling untuk deskripsi produk */
+       
         #productDescription {
-            font-size: 16px; /* Ukuran font standar untuk deskripsi */
-            color: #555; /* Warna teks abu-abu untuk deskripsi */
-            line-height: 1.6; /* Jarak antar baris yang nyaman dibaca */
-            padding: 15px; /* Memberikan jarak dalam deskripsi */
-            background-color: #f9f9f9; /* Latar belakang yang lebih terang */
-            border-radius: 8px; /* Sudut melengkung */
+            font-size: 16px; 
+            color: #555; 
+            line-height: 1.6; 
+            padding: 15px;
+            background-color: #f9f9f9; 
+            border-radius: 8px; 
             box-sizing: border-box;
-            margin-top: 10px; /* Memberikan jarak antara deskripsi dan elemen lainnya */
+            margin-top: 10px; 
         }
     </style>
 	<link rel="stylesheet" href="./TEMBAK PAKET_files/style.css">
@@ -252,7 +246,7 @@
 </style>
            
         
-        <!-- Kategori Utama -->
+        
         <div class="section">
             <label for="category">Pilih Kategori:</label>
             <select id="category">
@@ -261,7 +255,7 @@
             </select>
         </div>
 
-        <!-- Sub-Kategori -->
+        
         <div class="section">
             <label for="subcategory">Pilih Pembayaran</label>
             <select id="subcategory"><option value="">-- Pilih Pembayaran --</option>
@@ -269,7 +263,7 @@
             <div id="subcategoryDescription" style="margin-top: 10px; color: #555; font-size: 14px;"><label for="product">UNTUK CEK AREA KALIAN SILAHKAN TINGGAL KLIK</label> <a href="https://www.scribd.com/document/681474129/daerah-paket-xl-akrab/" target="_blank">DI SINI</a></div>
         </div>
 
-        <!-- Produk -->
+        
         <div class="section">
             <label for="product">Pilih Produk:</label>
             <select id="product"><option value="">-- Pilih Produk --</option>
@@ -282,23 +276,23 @@
             </select>
         </div>
 
-        <!-- Deskripsi Produk -->
+        
         <div class="section" id="productDescription" style="margin-top: 10px; color: #555; font-size: 14px;"><label for="product">!!BACA SEBELUM ORDER!!</label> Area 1 = 25 GB - 27 GB<br>Area 2 = 30 GB - 32 GB<br>Area 3 = 43 GB - 55 GB<br>Area 4 = 83 GB - 85 GB<br>~ jika masih ada Akrab,unreg dulu lewat pengelola lama agar tidak gagal<br>~ GARANSI 30HARI<br></div>
 
-        <!-- Harga Produk -->
+        
         <div class="section price" id="productPrice">Rp 49.000</div>
 
         <button class="cekstock-button" onclick="window.open(&#39;https://wa.me/6281770692596?text=tanyastock&#39;, &#39;_blank&#39;);">tanya stok paket akrab</button>
 
         <button class="cekstock-button" onclick="window.open(&#39;https://www.scribd.com/document/681474129/daerah-paket-xl-akrab&#39;, &#39;_blank&#39;);">cek area akrab</button>
 
-        <!-- Metode Pembayaran -->
+        
         <div class="section" id="paymentSection" style="display: block;">
             <label for="payment">Pilih Metode Pembayaran:</label>
             <ul id="paymentList"><button class="payment-button">Wa Admin</button></ul>
         </div>
 
-        <!-- Nomor Tujuan dan Tombol Beli -->
+        
         <div class="section">
             <label for="phone">Masukan Nomor Tujuan:</label>
             <input type="text" id="phone" placeholder="Contoh: 6281770692596">
@@ -307,7 +301,7 @@
         <div class="section">
             <button onclick="submitForm()">Beli</button>
 
-             <!-- Tombol WhatsApp -->
+            
              <button class="whatsapp-button" onclick="redirectToWhatsAppGroup()">saluran whatsapp testimoni</button>
             </div>
         </div>
@@ -380,7 +374,7 @@
         const paymentList = document.getElementById('paymentList');
         let selectedPaymentMethod = '';
 	    
-        // Fungsi untuk mengupdate subkategori berdasarkan kategori
+        
         categorySelect.addEventListener('change', function() {
             const category = this.value;
             subcategorySelect.innerHTML = '<option value="">-- Pilih Sub-Kategori --</option>';
@@ -404,7 +398,7 @@
             }
         });
 
-        // Fungsi untuk mengupdate produk berdasarkan subkategori
+       
         subcategorySelect.addEventListener('change', function() {
             const category = categorySelect.value;
             const subcategory = this.value;
@@ -423,7 +417,7 @@
                     productSelect.appendChild(option);
                 });
 
-                // Menampilkan deskripsi subkategori
+                
                 const subcategoryInfo = subcategoryProducts[0].subcategoryDescription;
                 subcategoryDescription.innerHTML = subcategoryInfo;
                 productSelect.disabled = false;
@@ -432,7 +426,7 @@
             }
         });
 
-        // Fungsi untuk menampilkan harga dan deskripsi produk
+        
         productSelect.addEventListener('change', function() {
             const category = categorySelect.value;
             const subcategory = subcategorySelect.value;
@@ -449,7 +443,7 @@
                     productDescription.innerHTML = product.description;
                     paymentSection.style.display = 'block';
 
-                    // Menampilkan metode pembayaran yang tersedia
+                    
                     paymentList.innerHTML = '';
                     product.paymentMethods.forEach(method => {
                         const button = document.createElement('button');
@@ -462,14 +456,14 @@
             }
         });
 
-        // Fungsi untuk memilih metode pembayaran
+        
         function selectPaymentMethod(method, button) {
             selectedPaymentMethod = method;
             document.querySelectorAll('.payment-button').forEach(btn => btn.classList.remove('selected-payment'));
             button.classList.add('selected-payment');
         }
 
-        // Fungsi untuk mengirim data form
+        
         function submitForm() {
             const phone = document.getElementById('phone').value;
             const category = categorySelect.value;
@@ -486,19 +480,19 @@
             window.open(url, '_blank');
         }
 
-        // Fungsi untuk toggle informasi tambahan
+        
         function toggleInfo() {
             const infoText = document.getElementById('infoText');
             infoText.style.display = infoText.style.display === 'none' ? 'block' : 'none';
         }
 
-        // Fungsi untuk submit form
+        
         function submitForm() {
             const phone = document.getElementById('phone').value;
             alert('Nomor tujuan: ' + phone);
         }
 
-        // Fungsi untuk menangani tombol beli
+        
 function submitForm() {
     const category = categorySelect.value;
     const subcategory = subcategorySelect.value;
@@ -520,14 +514,14 @@ function submitForm() {
         message = `${subcategory} ${productCode}.${phone}`;
     }
 
-    const phoneNumber = '6281770692596'; // Nomor WhatsApp tujuan
+    const phoneNumber = '6281770692596'; 
     const whatsappURL = `https://wa.me/${6281770692596}?text=${encodeURIComponent(message)}`;
 
     window.open(whatsappURL, '_blank');
 }  
 
 function redirectToWhatsAppGroup() {
-            const groupLink = "https://www.whatsapp.com/channel/0029Vaeegu4G8l56GOyjXb3P"; // Ganti dengan link grup WhatsApp kamu
+            const groupLink = "https://www.whatsapp.com/channel/0029Vaeegu4G8l56GOyjXb3P"; 
             window.open(groupLink, '_blank');
         }
     </script>
